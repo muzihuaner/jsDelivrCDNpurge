@@ -105,7 +105,7 @@
                 alert("你输入的网址不是以http://,https://开头，或者根本不是网址哦！");
             }
             else {
-                var url = x.value.replace(/cdn/g, "purge");
+                var url = x.value.replace(/cdn.jsdelivr.net/g, "purge.jsdelivr.net");
                 window.open(url, "_blank");
             }
 
